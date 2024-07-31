@@ -116,6 +116,10 @@ extern  "C" {
     typedef struct plotting_data plotting_data;
 #endif
 
+#ifndef HAVE_IEEE754_FLOAT32_T
+typedef float ieee754_float32_t;
+#endif
+
 /***********************************************************************
 *
 *  Global Type Definitions
